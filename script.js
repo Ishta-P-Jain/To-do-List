@@ -25,6 +25,7 @@ const addTask = () => {
     }
 };
 
+
 const toggleTaskComplete = (index) => {
     tasks[index].completed = !tasks[index].completed; //TOGGLES THE COMPLETION STATUS
     updateTaskList();
